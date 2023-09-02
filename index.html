@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>TUS Greinbach</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <header class="header header-main">
+            <div class="navbar">
+                <a href="index.html">
+                    <img src="Images/greinbach-logo.png" alt=" TUS Greinbach" class="image-greinbach">
+                </a>
+                <nav class="nav flex">
+                    <a href="index.html">
+                        <button type="button" class="not-drpdwn-btn nav-btn">Aktuelles</button>
+                    </a>
+                    <div class="container">
+                        <button class="drpdown-btn nav-btn">Mannschaften <span class="arrow"></span></button>
+                        <div class="dropdown-content">
+                            <a href="Squads/KM1.html">KM1</a>
+                            <a href="Squads/KM2.html">KM2</a>
+                            <a href="Squads/U17A.html">U17A</a>
+                        </div>
+                            <!--Dropdown mit KM1, KM2, U17, durch ankliken auf jeweilige seite; 
+                            weiterer Navtab mit Kader, Betreuer, Spielplan, Tabelle - linkt zu 
+                            jeweiligen teil der GLEICHEN seite (scrollt runter für benutzer)-->
+                    </div>
+                    <div class="container"> 
+                        <button class="drpdown-btn nav-btn">Klub <span class="arrow"></span></button> 
+                        <div class="dropdown-content">
+                            <a href="Club/neuzugänge.html">Neuzugänge</a>
+                            <a href="Club/funktionäre.html">Funktionäre</a>
+                            <a href="Club/stadion.html">Stadion</a>
+                            <a href="Club/kontakt.html">Kontakt</a>
+                        </div>
+                    </div>
+                        <!--Dd mit Funktionäre (ev genauere einteilung - vorstand, 
+                        mitarbeiter), Stadion, Kontakt-->
+                    <a href="sponsoren.html" target="_self">
+                        <button type="button" class="not-drpdwn-btn nav-btn">Sponsoren</button>
+                    </a>
+                    <!--sponsoren -->
+                    <a href="fans.html">
+                        <button type="button" class="not-drpdwn-btn nav-btn">Fans</button> <!--Fan werden-->
+                    </a>
+                </nav>
+            </div>
+            <div class="header-text">
+                <h1>TUS Greinbach</h1>
+                <h4>Herzlich Willkommen auf der offiziellen Website des TUS Greinbach</h4>
+            </div>
+        </header>
+        <section>
+            <h2 class="section-header">Aktuelle News</h2>
+            <div class="section-container">
+                <div class="news">
+                    <a href="News/teambuilding.html" target="_self">
+                        <h7 class="header news-header">Teambuilding</h7>
+                    </a>
+                    <a href="News/teambuilding.html" alt="Teambuilding" target="_self">
+                        <img src="Images/teambuilding.jpg" class="images-home image-ball">
+                    </a>
+                    <p class="news-text">Neue und alte Spieler lernen sich kennen</p>
+                    <a href="News/teambuilding.html" target="_self">
+                        <button type="button" class="btn button-weiterlesen">Weiterlesen</button>
+                    </a>
+                </div>
+                <div class="news"> <!--extra HTML seite für Video machen!-->
+                    <a href="News/stayathomechallenge.html" target="_self">
+                        <h7 class="header news-header">Stay&commat;Home Challenge</h7>
+                    </a>
+                    <a href="News/stayathomechallenge.html" target="_self">
+                        <img src="Images/fußball-ball.jpg" alt="Stay-At-Home Challenge" class="images-home image-ball">
+                    </a>
+                    <p class="news-text">Unsere Jungs halten sich derzeit zuahuse fit :)</p>
+                    <a href="News/stayathomechallenge.html" target="_self">
+                        <button type="button" class="btn button-weiterlesen">Weiterlesen</button>
+                    </a>
+                </div>
+            </div>
+            <div class="news-neuzugänge">
+                <a href="Club/neuzugänge.html" target="_self">
+                    <h2>Letzte Neuzugänge</h2> <!--Pfeil für Klubwechsel: &rsaquo;-->
+                </a>
+                <a href="Club/neuzugänge.html" target="_self">
+                    <button type="button" class="btn link-btn">&#10132;</button>
+                </a>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-sponsoren">
+                <img src="Images/fischer-holz-logo.jpeg" alt="Fischer Holz" class="footer-images">
+                <img src="Images/fuchs-gmbh-logo.png" alt="Josef Fuchs GMBH" class="footer-images">
+            </div>
+            <div class="footer-socials">
+                <h5 class="footer-header">Folge Uns</h5>
+                <div>
+                    <a href="https://www.facebook.com/tusgreinbach/?locale=de_DE" target="_blank">
+                        <img src="Images/facebook-logo.webp" alt="Facebook" class="logos-footer">
+                    </a>
+                    <a href="https://instagram.com/tusgreinbach?igshid=NjIwNzIyMDk2Mg==" target="_blank">
+                        <img src="Images/instagram-logo.png" alt="Instagram" class="logos-footer">
+                    </a>
+                    <a href="https://www.youtube.com/@tusgreinbach8332" target="_blank">
+                        <img src="Images/youtube-logo.jpg" alt="YouTube" class="logos-footer">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-kontakt">
+                <a href="Club/kontakt.html">
+                    <h5>Kontakt</h5>
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>
