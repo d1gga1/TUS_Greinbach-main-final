@@ -556,3 +556,109 @@ head, body {
     margin-top: 50px;
     margin-bottom: 20px;
 }
+
+/*____*/
+
+.row.footer-main__details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    margin: 0px;
+    width: 100%;
+
+  }
+  
+  /* Stili per la colonna sinistra con il logo e le informazioni */
+  .col--4.nav-footer__wrapper {
+    order: 2;
+    flex: 1;
+    padding: 0 10px;
+    text-align: center;
+  }
+  
+  .logo-bg {
+    margin-bottom: 10px;
+  }
+  
+  /* Stili per il paragrafo a sinistra */
+  .paragraph16-upper-light {
+    text-align: left;
+    font-size: 16px;
+    
+  }
+  
+  /* Stili per la colonna centrale con l'elenco al centro */
+  .col--4.nav-footer-secondary__wrapper {
+    order: 3;
+    flex: 1;
+    text-align: center;
+    border-left: 1px solid #333; 
+    padding-left: 10px;
+  }
+  
+  .nav-footer-secondary ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .nav-footer-secondary ul li {
+    margin: 10px 0;
+  }
+  
+  /* Stili per la colonna destra con l'elenco a destra */
+  .nav-footer__details {
+    order: 1;
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid #333; 
+    padding-right: 10px;
+  }
+  
+  .nav-footer__details p {
+    margin: 10px 0;
+  }
+  
+  /* Stili per le icone delle piattaforme sociali */
+  .social-icons {
+    text-align: center;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  /* Stili per le icone delle piattaforme sociali */
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  /* Stili per il footer navigation links */
+  .nav-footer ul,
+  .nav-footer-secondary ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .nav-footer ul li,
+  .nav-footer-secondary ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Stili per i link */
+  .nav-footer a,
+  .nav-footer-secondary a,
+  .footer-main__details__link {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  /* Stili per il link della mappa */
+  .footer-main__details__link {
+    display: inline-block;
+    margin-top: 20px;
+  }
