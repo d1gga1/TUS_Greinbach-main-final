@@ -512,7 +512,30 @@ head, body {
 }
 
 /* ------------- tabelle ---------- */
-.tabelle {
-    width: 1000px;
+/* .tabelle {
     
+} */
+
+/* ------------------------------------------------------------ squad -------------------------------------------------- */
+
+.squad-pic img {
+    width: 900px;
+}
+
+.squad-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.squad-text h1 {
+    font-size: 3em;
+    color: #000;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.squad-text {
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
