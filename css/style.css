@@ -44,6 +44,11 @@ head, body {
     height: auto;
     border-radius: 10%;
     min-width: 100px;
+    transition: transform 0.3s ease;
+}
+
+.image-greinbach:hover {
+    transform: scale(1.1); 
 }
 
 .header-text {
@@ -101,6 +106,7 @@ head, body {
     display: none;
     position: absolute;
     min-width: 160px;
+    border-radius: 10px;
     box-shadow: 0px 0px 16px 0px rgba(250,250,250,0.9);
     z-index: 1;
 }
@@ -135,6 +141,7 @@ head, body {
 .dropdown-content a:hover{
     color: rgb(15,15,15);
     background-color: rgba(254,134,0,255);
+    border-radius: 10px;
 }
 
 .container:hover .nav-btn {
@@ -294,19 +301,29 @@ head, body {
     text-decoration: none;
 }
 
+.not-drpdwn-btn, .nav-btn{
+    color: orange;
+    background-color: transparent;
+    padding: 10px;
+    transition: color 0.7s ease, background-color 0.9s ease;
+
+}
+
 .button-weiterlesen {
     width: 100px;
     padding: 10px;
     margin: 10px;
     font-weight: bolder;
     background-color: rgba(254,134,0,255);
-    color: #ffffff;
+    color: black;
     cursor: pointer;
     border: 2px solid black;
+    transition: color 0.7s ease, background-color 0.9s ease;
 }
 
-.button-weiterlesen:hover, .link-btn:hover {
-    background-color: rgba(238, 122, 0, 1)
+.button-weiterlesen:hover{
+    color: orange;
+    background-color: black;
 }
 
 .news-neuzugänge {
