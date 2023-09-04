@@ -14,7 +14,7 @@ head, body {
 * {
     font-family: REM;
     box-sizing: border-box;
-    color: #777;
+    color: rgb(119, 119, 115);
     margin: 0;
     padding: 0;
 }
@@ -197,6 +197,7 @@ head, body {
     padding-right: 30px;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 
 .footer-header {
@@ -559,12 +560,26 @@ head, body {
 
 /*____*/
 
+.modified{
+    font-family: REM;
+    box-sizing: border-box;
+    color: #777;
+    margin: 0;
+    padding: 0;
+    transition: color 0.3s, font-size 0.3s;
+}
+
+.modified:hover{
+ color: white; /* Colore bianco al passaggio del mouse */
+  font-size: 18px; /* Dimensione leggermente più grande al passaggio del mouse */
+}
+
 .row.footer-main__details {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: black;
+    background-color: tra;
     margin: 0px;
     width: 100%;
 
@@ -576,7 +591,33 @@ head, body {
     flex: 1;
     padding: 0 10px;
     text-align: center;
+    border-left: 1px solid #333 ; 
+    padding-left: 10px;
   }
+
+  .nav-footer {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left-div{
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+    flex: 1;
+    
+
+  }
+
+  .right-div{
+    font-size: 20px;
+    text-align: right;
+    margin-right: 220px;
+    flex: 1;
+    
+  }
+
+  
   
   .logo-bg {
     margin-bottom: 10px;
@@ -596,6 +637,8 @@ head, body {
     text-align: center;
     border-left: 1px solid #333; 
     padding-left: 10px;
+    font-size: 22px;
+    
   }
   
   .nav-footer-secondary ul {
@@ -611,9 +654,8 @@ head, body {
   .nav-footer__details {
     order: 1;
     flex: 1;
-    text-align: center;
-    border-right: 1px solid #333; 
-    padding-right: 10px;
+    text-align: left;
+    
   }
   
   .nav-footer__details p {
@@ -662,3 +704,49 @@ head, body {
     display: inline-block;
     margin-top: 20px;
   }
+
+  .sponsors{
+    height: 200px; /* Altezza della linea orizzontale */
+    background-color: rgb(15, 15, 15); /* Colore della linea */
+    text-align: center; /* Centra orizzontalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centra verticalmente */
+    
+    
+}
+
+
+.grayscale {
+    filter: grayscale(100%);
+    transition: filter 0.3s; /* Aggiunge una transizione per il passaggio al colore originale */
+    margin-right: 20px;
+  }
+  
+  /* Quando il mouse si sovrappone all'immagine, torna al colore originale */
+  .grayscale:hover {
+    filter: grayscale(0%);
+  }
+
+  .horizontal-line {
+    border-top: 1px solid grey; /* Colore e stile della linea */
+    
+  }
+
+  .prima{
+    
+    width: 200px; /* Imposta la larghezza a 200 pixel */
+  height: auto; /* Imposta l'altezza automaticamente in base all'aspetto originale */
+}
+
+.seconda{
+    
+    width: 200px; /* Imposta la larghezza a 200 pixel */
+  height: auto; /* Imposta l'altezza automaticamente in base all'aspetto originale */
+}
+  
+
+  
+  
+
+  
