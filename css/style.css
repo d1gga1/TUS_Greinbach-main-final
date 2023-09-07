@@ -183,7 +183,9 @@ head, body {
 
 /* ------------------------------------------------------- zoom pictures ------------------------------------------ */
 
-
+.player-img:hover {
+    transform: scale(1.2);
+}
 
 /* ---------------------------------------------------------- footer ----------------------------------------------- */
 
@@ -529,35 +531,6 @@ head, body {
 
 }
 
-/* ------------- tabelle ---------- */
-/* .tabelle {
-    
-} */
-
-/* ------------------------------------------------------------ squad -------------------------------------------------- */
-
-.squad-pic img {
-    width: 900px;
-}
-
-.squad-pic {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.squad-text h1 {
-    font-size: 3em;
-    color: #000;
-    font-weight: bolder;
-    text-align: center;
-}
-
-.squad-text {
-    margin-top: 50px;
-    margin-bottom: 20px;
-}
-
 /*____*/
 
 .modified{
@@ -746,7 +719,176 @@ head, body {
 }
   
 
-  
-  
+/* ------------------------------------------------------------ squad -------------------------------------------------- */
 
-  
+.squad-header {
+    height: 800px;
+}
+
+.squad-pic img {
+    width: 900px;
+}
+
+.squad-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.squad-text h1 {
+    font-size: 3em;
+    color: #000;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.squad-text {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.kader, .betreuer, .spielplan, .tabelle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.squad-section-header {
+    font-size: 2.5em;
+    color: #111;
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* ------------------------------------- kader ------------------------------------------------ */
+
+.kader {
+    display: flex;
+    flex-direction: column;
+}
+
+.squad-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border-bottom: 1px solid black;
+}
+
+.squad-container:last-child {
+    border: none;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 200px;
+}
+
+.player-img {
+    position: relative;
+    overflow: hidden;
+    height: 120px;
+    width: auto;
+    transition: transform 0.3s ease
+}
+
+.kader h3 {
+    font-size: 2em;
+    color: #222;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.kader a {
+    text-decoration: none;
+}
+
+/* ------------------------------------- betreuer -------------------------------------------- */
+
+.betreuer {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 30px;
+}
+
+.coach {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coach-name p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.coach-img img {
+    height: 120px;
+    width: auto;
+}
+
+/* -------------------------------- spielplan --------------------------------------------- */
+
+.section-container-games {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+    margin: 0px 10px;
+    padding-bottom: 20px;
+    margin-top: 30px;
+}
+
+.spielplan {
+    display: inline-block;
+    flex-direction: column;
+    align-items: left;
+    border: none;
+    border-left: 1px solid black;
+    padding-left: 10px;
+}
+
+.spiel p {
+    margin-left: 0;
+    padding-left: 0;
+    padding: 2px;
+}
+
+.spiel {
+    padding: 15px 0px;
+    text-align: left;
+    max-width: 500px;
+}
+
+.liga {
+    padding: 10px 0px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.spielplan h5 {
+    font-size: 1.2em;
+    padding: 10px 0px;
+    text-decoration: underline;
+}
+
+.matches {
+    display: flex;
+    border-bottom: 2px solid black;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.homegame {
+    font-weight: bold;
+}
+
+/* ------------- tabelle ---------- */
+/* .tabelle {
+    
+} */
