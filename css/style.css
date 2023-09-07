@@ -220,7 +220,7 @@ head, body {
 .footer-images {
     width: 300px;
     height: 100px;
-    margin: 20px;
+    border-radius: 5%;
 }
 
 .footer-images:first-child {
@@ -683,10 +683,9 @@ head, body {
     background-color: rgb(15, 15, 15); /* Colore della linea */
     text-align: center; /* Centra orizzontalmente */
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center; /* Centra verticalmente */
-    
-    
+
 }
 
 
