@@ -807,6 +807,23 @@ head, body {
     text-decoration: none;
 }
 
+.name-nr {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    transition: transform 0.3s ease;
+    padding: 5px;
+}
+
+.name-nr:hover a, .name-nr a:hover {
+    color: rgba(238, 122, 0, 1);
+    font-weight: bolder;
+}
+
+.name-nr:hover {
+    transform: scale(1.2);
+}
+
 /* ------------------------------------- betreuer -------------------------------------------- */
 
 .betreuer {
